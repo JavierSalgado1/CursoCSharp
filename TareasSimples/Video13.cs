@@ -13,7 +13,7 @@ namespace TareasSimples
 
             Console.Write("Ingresa tu primer nombre: ");
             // Se agrega "!" luego de readline para indicar al compilador que el programa está preparado para recibir un valor 
-            // en la variable num1, y así evitar una advertencia por parte del compilador.
+            // nulo en la variable num1, y así evitar una advertencia por parte del compilador.
             primerNombre = Console.ReadLine()!;
 
             Console.Write("Ingresa tus apellidos: ");

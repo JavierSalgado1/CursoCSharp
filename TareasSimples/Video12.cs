@@ -15,7 +15,7 @@ namespace TareasSimples
 
             Console.Write("Primer factor: ");
             // Se agrega "!" luego de readline para indicar al compilador que el programa está preparado para recibir un valor 
-            // en la variable num1, y así evitar una advertencia por parte del compilador.
+            // nulo en la variable num1, y así evitar una advertencia por parte del compilador.
             num1 = ushort.Parse(Console.ReadLine()!);
 
             Console.Write("Segundo factor: ");

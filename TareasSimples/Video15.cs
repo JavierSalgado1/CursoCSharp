@@ -13,7 +13,7 @@ namespace TareasSimples
             //Se usa Write en vez de WriteLine para evitar que se realice un salto de línea después del mensaje.
             Console.Write("Ingrese su correo: ");
             // Se agrega "!" luego de readline para indicar al compilador que el programa está preparado para recibir un valor 
-            // en la variable num1, y así evitar una advertencia por parte del compilador.
+            // nulo en la variable num1, y así evitar una advertencia por parte del compilador.
             correoIntroducido = Console.ReadLine()!;
 
             Console.Write("Ingrese la contraseña: ");
