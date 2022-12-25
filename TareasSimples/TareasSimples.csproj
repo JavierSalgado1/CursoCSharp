@@ -5,7 +5,7 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>TareasSimples.Video8</StartupObject>
+    <StartupObject>TareasSimples.Video10</StartupObject>
   </PropertyGroup>
 
 </Project>
