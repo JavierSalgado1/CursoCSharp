@@ -17,6 +17,8 @@ namespace TareasSimples
             primerNombre = Console.ReadLine()!;
 
             Console.Write("Ingresa tus apellidos: ");
+            // Como el método ReadLine de la clase Console devuelve un dato de tipo string, no es necesario realizar un parseo 
+            // o conversión del dato, como en los demás casos.
             apellidos = Console.ReadLine()!;
 
             MostrarNombre(primerNombre, apellidos);
