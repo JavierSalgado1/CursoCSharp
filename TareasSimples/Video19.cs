@@ -1,7 +1,7 @@
 using System;
 // EJERCICIO PROPUESTO EN EL CURSO. Realizar aplicación de consola que genere un número aleatorio. El usuario deberá introducir 
 // números y el programa deberá imprimir si el número ingresado es mayor o menor al número generado. Se debe repetir esto hasta 
-// acertar el número, y el programa deberá indicar el número de intentos que se utilizaron para acertar.
+// acertar el número, y el programa deberá indicar el número de intentos que se utilizaron para acertar. Utilizar bucle While.
 namespace TareasSimples
 {
     class Video19
