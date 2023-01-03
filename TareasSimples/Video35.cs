@@ -106,24 +106,27 @@ namespace TareasSimples
         {
             ushort elementoMenor;
             ushort contador = 2;
+            ushort numSimplificado = fraccion.num;
+            ushort denSimplificado = fraccion.den;
 
             do
             {
-                if ((fraccion.num%contador == 0) && (fraccion.den%contador == 0))
+                if ((numSimplificado%contador == 0) && (denSimplificado%contador == 0))
                 {
-                    fraccion.num = (ushort)(fraccion.num / contador);
-                    fraccion.den = (ushort)(fraccion.den / contador);
+                    numSimplificado = (ushort)(numSimplificado / contador);
+                    denSimplificado = (ushort)(denSimplificado / contador);
                 }
                 else
                 {
                     contador ++;
                 }
 
-                elementoMenor = Math.Min(fraccion.num, fraccion.den);
+                elementoMenor = Math.Min(numSimplificado, denSimplificado);
             } 
             while (contador <= (elementoMenor / 2));
 
-            return fraccion;
+            var fraccionSimplificada = new {num = numSimplificado, den = denSimplificado};
+            return fraccionSimplificada;
         }
     }
 }
