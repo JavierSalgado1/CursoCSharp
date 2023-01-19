@@ -1,0 +1,15 @@
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\bin\Debug\net7.0\TareasParte3.exe
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\bin\Debug\net7.0\TareasParte3.deps.json
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\bin\Debug\net7.0\TareasParte3.runtimeconfig.json
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\bin\Debug\net7.0\TareasParte3.dll
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\bin\Debug\net7.0\TareasParte3.pdb
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\TareasParte3.csproj.AssemblyReference.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\TareasParte3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\TareasParte3.AssemblyInfoInputs.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\TareasParte3.AssemblyInfo.cs
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\TareasParte3.csproj.CoreCompileInputs.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\TareasParte3.dll
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\refint\TareasParte3.dll
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\TareasParte3.pdb
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\TareasParte3.genruntimeconfig.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte3\obj\Debug\net7.0\ref\TareasParte3.dll
