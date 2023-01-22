@@ -17,7 +17,7 @@ namespace TareasParte3
             {
                 try
                 {
-                    System.Console.WriteLine("¿De qué quiere llenar la lista?\n1) Personas\n2) Animales.");
+                    Console.WriteLine("¿De qué quiere llenar la lista?\n1) Personas\n2) Animales.");
                     eleccionObjeto = byte.Parse(Console.ReadLine()!);
 
                     if(eleccionObjeto < 1 || eleccionObjeto > 2) throw new Exception();
