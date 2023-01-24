@@ -8,7 +8,7 @@ namespace TareasParte1
         static void Main(string[] args)
         {
             string contenido = null!;
-            System.IO.StreamReader archivo = null!;
+            StreamReader archivo = null!;
 
             Console.Write("Ingrese el nombre de un archivo con su extensión y ruta: ");
  
@@ -16,7 +16,7 @@ namespace TareasParte1
             {
                 string ruta = Console.ReadLine()!;
 
-                archivo = new System.IO.StreamReader(ruta);
+                archivo = new StreamReader(ruta);
                 contenido = archivo.ReadToEnd();
             }
             catch(Exception e)
