@@ -2,7 +2,6 @@
 // hasta llegar a ese número. Utilizar delegados predicados.
 // * Adaptación de ejercicio propuesto en el curso.
 using System.Collections.Generic;
-using System.Reflection.Metadata;
 
 namespace TareasParte3
 {
