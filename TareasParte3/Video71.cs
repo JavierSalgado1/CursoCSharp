@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace TareasParte3
 {
-    class Video72
+    class Video71
     {
         static void Main(string[] args)
         {
