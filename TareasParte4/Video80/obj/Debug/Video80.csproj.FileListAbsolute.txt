@@ -1,0 +1,16 @@
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\bin\Debug\Video80.exe.config
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\bin\Debug\Video80.exe
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\bin\Debug\Video80.pdb
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80.csproj.AssemblyReference.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80.csproj.SuggestedBindingRedirects.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\MainWindow.g.cs
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\App.g.cs
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80_MarkupCompile.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80_MarkupCompile.lref
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\MainWindow.baml
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80.g.resources
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80.Properties.Resources.resources
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80.csproj.GenerateResource.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80.csproj.CoreCompileInputs.cache
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80.exe
+C:\Users\XaviP\OneDrive\Escritorio\CursoCSharp\TareasParte4\Video80\obj\Debug\Video80.pdb

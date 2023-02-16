@@ -1,0 +1,48 @@
+﻿<Window x:Class="Video80.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Video80"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Persona" VerticalAlignment="Center" Margin="20, 0" FontSize="23" FontWeight="DemiBold"></TextBlock>
+        <Label Grid.Row="1" Grid.Column="0" Margin="20, 0" Content="Rut" VerticalAlignment="Center" FontSize="13"></Label>
+        <Label Grid.Row="2" Grid.Column="0" Margin="20, 0" Content="Nombre" VerticalAlignment="Center" FontSize="13"></Label>
+        <Label Grid.Row="3" Grid.Column="0" Margin="20, 0" Content="Apellido Paterno" VerticalAlignment="Center" FontSize="13"></Label>
+        <Label Grid.Row="4" Grid.Column="0" Margin="20, 0" Content="Apellido Materno" VerticalAlignment="Center" FontSize="13"></Label>
+        <Label Grid.Row="5" Grid.Column="0" Margin="20, 0" Content="Edad" VerticalAlignment="Center" FontSize="13"></Label>
+        <Label Grid.Row="6" Grid.Column="0" Margin="20, 0" Content="Ingreso familiar $" VerticalAlignment="Center" FontSize="13"></Label>
+
+        <TextBox Name="txt_Rut" Text="{Binding Path=Rut, Mode=TwoWay}" Grid.Row="1" Grid.Column="1" Margin="5" VerticalContentAlignment="Center" MaxLength="12" TextChanged="txt_Rut_TextChanged"></TextBox>
+        <TextBox Name="txt_Nombre" Text="{Binding Path=Nombre, Mode=TwoWay}" Grid.Row="2" Grid.Column="1" Margin="5" VerticalContentAlignment="Center" MaxLength="25"></TextBox>
+        <TextBox Name="txt_ApPaterno" Text="{Binding Path=ApPaterno, Mode=TwoWay}" Grid.Row="3" Grid.Column="1" Margin="5" VerticalContentAlignment="Center" MaxLength="20"></TextBox>
+        <TextBox Name="txt_ApMaterno" Text="{Binding Path=ApMaterno, Mode=TwoWay}" Grid.Row="4" Grid.Column="1" Margin="5" VerticalContentAlignment="Center" MaxLength="20"></TextBox>
+        <TextBox Name="txt_Edad" Text="{Binding Path=Edad, Mode=TwoWay}" Grid.Row="5" Grid.Column="1" Margin="5" VerticalContentAlignment="Center" MaxLength="3"></TextBox>
+        <TextBlock Name="txtBlck_Ingreso" Text="{Binding ElementName=sldr_Ingreso, Path=Value, Mode=TwoWay}" Grid.Row="6" Grid.Column="1" Margin="5" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+        <Slider Name="sldr_Ingreso" Value="{Binding Path=IngresoFamiliar, Mode=TwoWay}" Grid.Row="7" Grid.Column="0" TickFrequency="10000" IsSnapToTickEnabled="True" Width="200" Margin="5" Minimum="90000" Maximum="8000000" VerticalAlignment="Top" HorizontalAlignment="Center" Grid.ColumnSpan="2"></Slider>
+
+        <Button Name="btn_Guardar" Content="Guardar" Grid.Row="4" Grid.Column="2" Margin="25, 8" Click="btn_Guardar_Click"></Button>
+        <Button Name="btn_Traer" Content="Traer" Grid.Row="5" Grid.Column="2" Margin="25, 8" Click="btn_Traer_Click"></Button>
+        <Button Name="btn_Eliminar" Content="Eliminar" Grid.Row="6" Grid.Column="2" Margin="25, 8" Click="btn_Eliminar_Click"></Button>
+        <Button Name="btn_Limpiar" Content="Limpiar" Grid.Row="7" Grid.Column="2" Margin="25, 8" Click="btn_Limpiar_Click"></Button>
+    </Grid>
+</Window>
