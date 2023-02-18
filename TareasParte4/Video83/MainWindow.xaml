@@ -1,0 +1,71 @@
+﻿<Window x:Class="Video83.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Video83"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="500"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <ListBox Name="lstBx_Discos" Margin="5" SelectionChanged="lstBx_Discos_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="124"></ColumnDefinition>
+                            <ColumnDefinition Width="124"></ColumnDefinition>
+                            <ColumnDefinition Width="80"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Column="0" Text="{Binding Path=Nombre}"></TextBlock>
+                        <TextBlock Grid.Column="1" Text="{Binding Path=Artista}" HorizontalAlignment="Center"></TextBlock>
+                        <TextBlock Grid.Column="2" Text="{Binding Path=Tipo}"></TextBlock>
+                        <ProgressBar Width="124" HorizontalContentAlignment="Center" Grid.Column="3"  Minimum="0" Maximum="5" Value="{Binding Path=Valoracion}"></ProgressBar>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Grid Grid.Row="1" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="75"></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Label Grid.Row="0" Grid.Column="0" Content="Álbum" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontWeight="DemiBold" FontSize="18" Grid.ColumnSpan="2"></Label>
+            <Label Grid.Row="1" Grid.Column="0" Content="Nombre: " VerticalAlignment="Center"></Label>
+            <Label Grid.Row="2" Grid.Column="0" Content="Artista: " VerticalAlignment="Center"></Label>
+            <Label Grid.Row="3" Grid.Column="0" Content="Tipo: " VerticalAlignment="Center"></Label>
+            <Label Grid.Row="4" Grid.Column="0" Content="Valoración: " VerticalAlignment="Center"></Label>
+            <Label Grid.Row="0" Grid.Column="2" Content="Track List: " HorizontalAlignment="Center" VerticalAlignment="Center" Grid.RowSpan="2" Grid.ColumnSpan="2"></Label>
+
+            <Button Name="btn_Agregar" Grid.Column="2" Grid.Row="5" Content="Agregar" VerticalContentAlignment="Center" Margin="5" Click="btn_Agregar_Click"></Button>
+            <Button Name="btn_Eliminar" Grid.Column="3" Grid.Row="5" Content="Eliminar" VerticalContentAlignment="Center" Margin="5" Click="btn_Eliminar_Click"></Button>
+
+            <TextBox Name="txt_Nombre" MaxLength="24" Grid.Column="1" Grid.Row="1" Margin="4" FontSize="10" VerticalContentAlignment="Center"></TextBox>
+            <TextBox Name="txt_Artista" MaxLength="24" Grid.Column="1" Grid.Row="2" Margin="4" FontSize="10" VerticalContentAlignment="Center"></TextBox>
+            <TextBox Name="txt_Tipo" MaxLength="15" Grid.Column="1" Grid.Row="3" Margin="4" FontSize="10" VerticalContentAlignment="Center"></TextBox>
+            <Slider Name="sldr_Valoracion" Value="{Binding ElementName=lbl_Valoracion, Path=Text, Mode=TwoWay}" Grid.Column="1" Grid.Row="4" Margin="4" Minimum="0" Maximum="5" TickFrequency="1" Width="110" IsSnapToTickEnabled="True"  HorizontalAlignment="Left"></Slider>
+            <TextBlock Name="lbl_Valoracion" Grid.Column="1" VerticalAlignment="Center" Grid.Row="4" Margin="4, 0" HorizontalAlignment="Right"></TextBlock>
+            <RichTextBox Name="txt_TrackList" Grid.Column="2" Grid.Row="2" Margin="4, -18, 4, 4" Grid.RowSpan="3" Grid.ColumnSpan="2" FontSize="10" VerticalContentAlignment="Center"></RichTextBox>
+        </Grid>
+    </Grid>
+</Window>
