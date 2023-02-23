@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video83", "Video83\Video83.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video85", "Video85\Video85.csproj", "{D6B3041A-9492-4F0F-8BC8-99F2175F291F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video87", "Video87\Video87.csproj", "{C8104D0F-51A1-4EEC-97D8-3E45A5CC95EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{D6B3041A-9492-4F0F-8BC8-99F2175F291F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6B3041A-9492-4F0F-8BC8-99F2175F291F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6B3041A-9492-4F0F-8BC8-99F2175F291F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8104D0F-51A1-4EEC-97D8-3E45A5CC95EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8104D0F-51A1-4EEC-97D8-3E45A5CC95EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8104D0F-51A1-4EEC-97D8-3E45A5CC95EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8104D0F-51A1-4EEC-97D8-3E45A5CC95EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
